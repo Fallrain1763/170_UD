@@ -1,4 +1,4 @@
-title = "Unstable Direction";
+title = "Unsure Direction";
 
 description = `
 [Tap to Start]
