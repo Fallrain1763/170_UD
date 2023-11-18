@@ -12,7 +12,11 @@ yyy
 `
 ];
 
-options = {};
+options = {
+  isPlayingBgm: true,
+  isReplayEnabled: true,
+  seed: 8,
+};
 
 /** @typedef {{pos: Vector}} Player */
 
@@ -58,6 +62,7 @@ function update() {
       direction = "L";
     
     prevTicks = ticks;
+    addScore(10);
   }
   
   if(input.isJustPressed)
